@@ -1,0 +1,106 @@
+:root {
+  font-family: Arial, sans-serif;
+  color: #102a43;
+  background: #f4f9ff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.dashboard {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+header h1 {
+  color: #1d4ed8;
+  margin-bottom: 1.5rem;
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid #dbeafe;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 3px 10px rgba(29, 78, 216, 0.08);
+}
+
+.transaction-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transaction-table th,
+.transaction-table td {
+  border-bottom: 1px solid #e5e7eb;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.high-value {
+  background: #eff6ff;
+  font-weight: 600;
+}
+
+.fraud-row {
+  color: #b91c1c;
+  background: #fef2f2;
+}
+
+.two-col {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.total {
+  margin-top: 0;
+  color: #1e3a8a;
+  font-weight: bold;
+}
+
+.fraud-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.fraud-list li {
+  padding: 0.4rem 0;
+  color: #b91c1c;
+}
+
+.chat-form {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.chat-form input {
+  flex: 1;
+  padding: 0.6rem;
+  border-radius: 8px;
+  border: 1px solid #93c5fd;
+}
+
+.chat-form button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+}
+
+.chat-response {
+  margin-top: 0.8rem;
+  background: #eff6ff;
+  padding: 0.75rem;
+  border-radius: 8px;
+}
+
+.chart-wrapper {
+  height: 280px;
+}
