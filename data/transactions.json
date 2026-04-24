@@ -1,0 +1,10 @@
+[
+  { "id": 1, "name": "Whole Foods", "amount": 120.5, "category": "Food", "date": "2026-04-20" },
+  { "id": 2, "name": "Airline Booking", "amount": 850.0, "category": "Travel", "date": "2026-04-18" },
+  { "id": 3, "name": "Unknown Merchant X", "amount": 250.75, "category": "Shopping", "date": "2026-04-16" },
+  { "id": 4, "name": "Electronics Hub", "amount": 11200.0, "category": "Shopping", "date": "2026-04-14" },
+  { "id": 5, "name": "City Cafe", "amount": 45.2, "category": "Food", "date": "2026-04-13" },
+  { "id": 6, "name": "Metro Pass", "amount": 79.99, "category": "Travel", "date": "2026-04-11" },
+  { "id": 7, "name": "Online Course", "amount": 199.0, "category": "Others", "date": "2026-04-10" },
+  { "id": 8, "name": "Unknown Payment", "amount": 15000.0, "category": "Others", "date": "2026-04-09" }
+]
